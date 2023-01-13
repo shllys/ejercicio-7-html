@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Formulario</title>
+    <link rel="stylesheet" href="css/tarea.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h3>Ingresa a los Formularios</h3>
+        <div class="botones">
+            <button class="google">
+                <picture>
+                    <img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-vector-graphic-pixabay-15.png" alt="logo-google">
+                </picture>
+                <span>Registrate con    Google</span>
+            </button>
+            <button class="twitter">
+                <picture>T</picture>
+            </button>
+        </div>
+        <div class="separador">
+            <hr>
+            <span>O</span>
+            <hr>
+        </div>
+        <form action="" method="">
+            <div class="seccion1">
+                <label for="name">
+                    <span>Name</span>
+                    <input id="name" name="name">
+                </label>
+                <label for="username">
+                    <span>Username</span>
+                    <input id="username" name="username">
+                </label>
+            </div>
+                <label for="email">
+                    <span>Email</span>
+                    <input id="email" name="email">
+                </label>
+                <label for="password">
+                    <span>Password</span>
+                    <input id="password" name="password" placeholder="6+ caracteres">
+                </label>
+                <label for="checkbox" class="checkbox-label">
+                    <input type="checkbox" id="checkbox">
+                    <span>Acento las condiciones y el aviso legal</span>
+                </label>
+            <button type="submit" class="boton">Crear Cuenta</button>
+        </form>
+    </div>
+</body>
+</html>
