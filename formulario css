@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2? family=Sofia+Sans+Extra+Condensed:ital,wght@0,200;1,400&display=swap');
+
+* {
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    background-color: #161717;
+}
+
+.contenedor {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 450px;
+    color: white;
+}
+
+.botones {
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
+
+.google {
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.google:hover {
+    opacity: 0.75;
+}
+
+.google picture {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google picture img {
+    width: 75%;
+}
+
+.google span {
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.twitter {
+    color: #bbb;
+    background-color: #eee;
+    border: none;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.twitter:hover {
+    background-color: #ddd;
+}
+
+.separador {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separador hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.separador span {
+    color: #8b8b8b;
+}
+
+.seccion1 {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label span {
+    font-weight: 700;
+    color: white;
+}
+
+.seccion1 label input {
+    width: 80%;
+    background-color: #212121;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 14pt;
+}
+
+label input {
+    width: 90%;
+    background-color: #212121;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+}
+
+label input:hover {
+    background-color: #454045;
+    border: 2px solid #f3f3f4;
+    box-shadow: 0 0 4px #fd6eeabd;
+}
+
+label input:focus {
+    background-color: #454045;
+    border: 2px solid #f3f3f4;
+    box-shadow: 0 0 4px #fd6eeabd;
+}
+
+.checkbox-label {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox-label input[type="checkbox"] {
+    width: 20px;
+}
+
+.checkbox-label span {
+    font-weight: 400;
+}
+
+.boton {
+    background-color: #ee40d7;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    opacity: 0.75;
+}
